@@ -1,21 +1,2 @@
 # ChatSystem
 A single server client chat system that can be used across a local network using socket programming.
-STEPS TO GET THIS PROJECT RUNNING
-Step 1) Open terminal or cmd in case of linux or windows respectively.
-Step 2) Change your working directory to the directory where both the files are saved (chatserver.py and chatclient.py).
-------------------------------FOR SERVER SIDE--------------------------------
-Step 3) If you want to be the server, then type:
-          python chatserver.py portnumber
-NOTE: PORTNUMBER can be any value between 1024 to 65535.
-The portnumber that you assigned will be temporary and it is where the communication will be established.
-Step 4) Press ENTER and the server will be open for local network communication.
-
--------------------------------FOR CLIENT SIDE--------------------------------
-After Step 2, do the following for communication with the server.
-Step 3) If you want to be the client, then type:
-          python chatclient.py IPADDRESS_of_server portnumber
-NOTE: IPADDRESS and PORTNUMBER should be same as of the server side.
-IPADDRESS of the server can be checked from the settings of the server.
-Step 4) Press ENTER. 
-AS you hit ENTER server will be notified that the connection has been established and communication now can be done.
-To end the communication and the link Client needs to type exit and communication between the two parties will be closed.
